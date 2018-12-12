@@ -9,7 +9,7 @@ import logging.config
 from DBUtils.PooledDB import PooledDB
 import configparser
 
-conf_file='db.conf'
+conf_file='/Users/fxm/PycharmProjects/graph_fo/common/db.conf'
 
 conf = configparser.ConfigParser()
 conf.read(conf_file)
