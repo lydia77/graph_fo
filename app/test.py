@@ -9,3 +9,4 @@ conn=mysql2pd(conf.get('db','host'),conf.get('db','port'),conf.get('db','db'),co
 data=conn.doget('select * from person_para limit 20')
 data.to_csv('../data/res.csv',encoding='utf8')
 # print(data.head(10))
+# 测试push
